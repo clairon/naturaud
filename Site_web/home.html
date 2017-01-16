@@ -2,68 +2,172 @@
 <html>
 
 <head>
-	<title>Audrey, naturopathe et réflexologue</title>
+	<title>Audrey Naturo | Home</title>
 	<link rel="stylesheet" type="text/css" href="home.css">
 	<link href="https://fonts.googleapis.com/css?family=Hind+Vadodara|Lato|Ruluko" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
-
 
 <body>
 
-	<div class="navigation_bar">
-	<ul>
-		<li>Qui suis-je ?</li>
-		<li>Découvrir</li>
-		<li>Consulter</li>
-		<li>Contact</li>
-	</ul>
+	<nav class="navbar navbar-fixed-top header">
+		<div class="container">
+			<div class="row">
+				<a class="col-sm-2 navbar-brand logo" href="home.html">	
+					Futur logo
+				</a>
+				<div class="col-sm-8 col-sm-offset-2 navigation_bar">
+					<ul class="nav navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="qui_suis_je.html">Qui suis-je ?</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="consulter.html">Consulter</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="decouvrir.html">Découvrir</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+					</ul>
+					<!-- ajouter les formes actives des liens -->
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	
+
+	<div class="container-fluid presentation">
+		<div class="container">
+			<div class="row">
+				<h1>Audrey</h1>
+				<h2>Naturopathe et Réflexologue</h2>
+			</div>
+		</div>
 	</div>
 
-	<div class="header debug">
-		<div id="header_text">
-			<h1>Audrey</h1>
-			<h2>Naturopathe et Réflexologue</h2>
-		</div>		
-	</div>
+
+
 
 	<div class="all_sections">
-
-		<div class="quisuisje debug">
-			<h3>Qui suis-je ?</h3>
-			<p>J'ai découvert la naturopathie il y a maintenant 5 ans et ai rapidement décidé de me reconvertir dans cette discipline. Je suis diplomée de l'école de Naturopathie de Nice et certifiée adhérente au syndicat de blabla.</p>
-			<p>Je suis à votre écoute pour vous accompagner vers un retour à l'équilibre psychique et physique !</p>
-			<h5>En savoir plus</h5>		
+		
+		<div class="container-fluid qui_suis_je">
+			<div class="container">
+				<h3>Qui suis-je ?</h3>
+				<div class="row">
+					<p class="col-sm-6 col-sm-offset-3">De formation initiale en Droit Social spécialité Ressources Humaines, je me suis vite rendue compte que cela ne me convenait pas. Entourée de personnes exerçant dans les médecines alternatives, je me suis orientée vers la Naturopathie.</p>
+					<p class="col-sm-6 col-sm-offset-3">Diplômée de l'Institut Français des Sciences de l'Homme, je suis à votre écoute pour vous accompagner vers un retour à l'équilibre psychique et physique !</p>
+				</div>
+				<a href="qui_suis_je.html" class="btn my-dark-btn-default" role="button">Plus d'info sur mon parcours</a>
+			</div>
 		</div>
 
-		<div class="consulter">
+		<div class="container consulter">
 			<h3>Consulter</h3>
-			<p>En construction</p>		
+			<div class="row">
+			<!-- J'ai un problème quand les textes ne sont pas de la même longueur alors les thumbnails non plus-->
+				
+				<div class="col-sm-4">
+    				<div class="thumbnail">
+      					<img src="http://www.cogicor.com/wp-content/uploads/2016/02/photodune-8456307-attentive-psychologist-having-session-with-her-patient-in-her-private-consulting-room-s.jpg" alt="1ère consultation naturopathie">
+      					<div class="caption">
+        					<h4>1ère consultation naturopathie</h4>
+       						<p>La 1ère consultation consiste en un questionnaire approfondi - l'anamnèse - qui permet d'établir un bilan de vitalité et d'aborder les différents moyens naturels de retrouver une bonne hygiène de vie.</p>
+        					<h6>60 min | 60 €</h6>
+        					<p>
+        						<a href="https://www.timify.com/fr/profile/audrey-naturo" target="_blank" class="btn my-btn-primary" role="button">Prendre RDV</a> 
+        						<a href="consulter_1.html" class="btn my-light-btn-default" role="button">Plus d'info</a>
+        					</p>
+      					</div>
+    				</div>
+				</div>
+
+				<div class="col-sm-4">
+    				<div class="thumbnail">
+      					<img src="http://static.wixstatic.com/media/6b197c3df956442f98893a0302d80de4.jpg/v1/fill/w_626,h_417/6b197c3df956442f98893a0302d80de4.jpg" alt="Consultation de suivi naturopathie">
+      					<div class="caption">
+        					<h4>Consultation de suivi naturopathie</h4>
+       						<p>Lors de ces consultations, nous faisons le point sur les bienfaits ressentis et sur les freins éventuels. Nous réadaptons votre programme pour poursuivre la démarche vers l’équilibre et la vitalité.</p>
+        					<h6>60 min | 50 €</h6>
+        					<p>
+        						<a href="https://www.timify.com/fr/profile/audrey-naturo" target="_blank" class="btn my-btn-primary" role="button">Prendre RDV</a> 
+        						<a href="#" class="btn my-light-btn-default" role="button">Plus d'info</a>
+        					</p>
+      					</div>
+    				</div>
+				</div>
+
+				<div class="col-sm-4">
+    				<div class="thumbnail">
+      					<img src="reflexologie_thumbnail.jpg" alt="Séance de réflexologie plantaire">
+      					<div class="caption">
+        					<h4>Séance de réflexologie plantaire</h4>
+       						<p>Par le biais des influx nerveux formés par la pression, la réflexologie plantaire favorise l'homéostasie (équilibre naturel de l'organisme). Le corps retrouve de manière naturelle équilibre et harmonie.</p>
+        					<h6>60 min | 50 €</h6>
+        					<p>
+        						<a href="https://www.timify.com/fr/profile/audrey-naturo" target="_blank" class="btn my-btn-primary" role="button">Prendre RDV</a> 
+        						<a href="consulter.html" class="btn my-light-btn-default" role="button">Plus d'info</a>
+        					</p>
+      					</div>
+    				</div>
+				</div>
+
+			</div>
+			<a href="#" class="btn my-dark-btn-default" role="button">Tous les types de consultations</a>
 		</div>
 
-		<div class="decouvrir">
-			<h3>Découvrir</h3>
-			<h4>Réflexologie et naturopathie : trouver son équilibre intérieur</h4>
-			<p>La relaxation est une des techniques de la naturopathie qui propose à toute personne de puiser en elle ses ressources nécessaires pour gérer son quotidien, faire face aux multiples évènements de la vie. Il s'agit d'un moment priviligié avec soi-même , qui permet de se ressourcer, maintenir et préverver une bonne hygiène de vie.</p>		
+		<div class="container-fluid decouvrir">
+			<div class="container">
+				<h3>Découvrir</h3> <!--Video ?-->
+				<h4>Réflexologie et naturopathie : trouver son équilibre intérieur</h4>
+				<div class="row">
+					<p class="col-sm-6 col-sm-offset-3">La relaxation est une des techniques de la naturopathie qui propose à toute personne de puiser en elle ses ressources nécessaires pour gérer son quotidien, faire face aux multiples évènements de la vie. Il s'agit d'un moment priviligié avec soi-même , qui permet de se ressourcer, maintenir et préverver une bonne hygiène de vie.</p>
+				</div>
+				<a href="decouvrir.html" class="btn my-dark-btn-default" role="button">En savoir plus</a>
+			</div>
 		</div>
+
+		<div class="container-fluid contact">
+			<div class="container">
+			<div class="row">  
+  				<form class="contact_form col-sm-6 col-sm-offset-3" action="" method="post">
+    				<h3>Contactez-moi !</h3>
+    				<h4>Merci pour votre intérêt, je réponds en général en moins de 48h.</h4>
+					<fieldset><input placeholder="Votre nom" type="text" tabindex="1" required></fieldset>  
+					<fieldset><input placeholder="Votre adresse email" type="email" tabindex="2" required></fieldset>
+					<fieldset><input placeholder="Votre numéro de téléphone" type="tel" tabindex="3" required></fieldset>
+					<fieldset><textarea placeholder="Votre message" tabindex="5" required></textarea></fieldset>
+					<fieldset><a href="#" class="btn my-dark-btn-default" role="button">Envoyer</a>
+					<!--<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>--></fieldset>
+  				</form>
+			</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="container-fluid footer">
+		<div class="container">
+			<div class="row">
+				<ul>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Mentions légales</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<!--
 
 		<div class="temoignages">
 			<p>Section Témoignages - En construction</p>		
 		</div>
 
-		<div class="contact">
-			<p>Section Me contacter - En construction</p>		
-		</div>
-	</div>
-
-	<div class="footer">
-	<ul>
-		<li>FAQ</li>
-		<li>Mentions légales</li>
-		<li>Plan du site</li>
-	</ul>
-	</div>
-
-
+-->
 </body>
 
 </html>

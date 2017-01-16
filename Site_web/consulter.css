@@ -40,19 +40,8 @@ color: #3a3934; // gris foncé
 
 .main {
 	position: relative;
-	top: 59px;
-}
-
-.consultation_zoom {
-
-}
-
-
-.row-eq-height{
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+	top: 50px;
+	margin-bottom: 50px;
 }
 
 .main h1 {
@@ -64,12 +53,10 @@ color: #3a3934; // gris foncé
 	padding-top: 20px;
 }
 
-.main h3 {
-	font-size: 1.2em;
-	font-family: 'Lato', sans-serif;
-	color: #79776d;
+.main p {
+	font-family: 'Hind Vadodara', sans-serif;
+	color: #3a3934;
 	text-align: center;
-	padding-bottom: 5px;
 }
 
 .main h4 {
@@ -87,10 +74,13 @@ color: #3a3934; // gris foncé
 	font-size: 1.1em;
 }
 
-.consultation_zoom p {
-	font-family: 'Hind Vadodara', sans-serif;
-	color: #3a3934;
-	text-align: center;
+.my-dark-btn-default {
+	font-family: 'Lato', sans-serif;
+	border-style: none;
+	background-color: #79776d;
+	color: #f5f5dc;
+	padding: 2px 30px;
+	margin-top: 10px;
 }
 
 .my-light-btn-default {
@@ -110,8 +100,8 @@ color: #3a3934; // gris foncé
 	margin-top: 10px;
 }
 
-.summary img {
-	width: 100%;
+.consultations_row {
+	margin-bottom: 30px;
 }
 
 .footer {
