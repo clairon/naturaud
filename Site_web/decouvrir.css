@@ -15,28 +15,24 @@ color: #79776d; // gris-marron
 color: #3a3934; // gris foncé
 */
 
-.header {
+
+.mynav {
   	font-family: 'Lato', sans-serif;
-  	height: 50px;
   	background-color: #79776d;
-  	/*z-index: 1000;*/
 }
 
-.logo {
-	color: black;
+.mynavbar a {
+ 	color: #f5f5dc;
 }
 
-.navigation_bar {
-	color: #f5f5dc;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+.mynavbar a:hover {
+	color: #79776d;
 }
 
-.navigation_bar a {
-	color: #f5f5dc;
-	font-size: 1.4rem;
+.myheader .icon-bar {
+    border:1px solid #f5f5dc;
 }
+
 
 .background {
 	background-color: #f5f5dc;
@@ -50,6 +46,10 @@ color: #3a3934; // gris foncé
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+}
+
+#p_hidden {
+	visibility: hidden;
 }
 
 .background h1 {
@@ -78,11 +78,11 @@ color: #3a3934; // gris foncé
 	padding-right: 30px;
 }
 
-.naturopathie {
-	background-image: url("http://blog.mamedecine.fr/wp-content/uploads/2015/12/naturopathie-mamedecine.jpg");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
+@media (min-width: 768px) {
+    .row.vertical-align {
+        display: flex;
+        align-items: center;
+    }
 }
 
 .naturopathie_text {
@@ -91,24 +91,10 @@ color: #3a3934; // gris foncé
 	margin-top: 30px;
 }
 
-.reflexologie {
-	background-image: url("http://www.sante-holistique.com/wp-content/uploads/2015/12/2015-11-Ecole-Meta-Reflexologie-N735.jpg");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-}
-
 .reflexologie_text {
 	text-align: right;
 	margin-bottom: 30px;
 	margin-top: 30px;
-}
-
-.accessbars {
-	background-image: url("http://www.zenementvotre.fr/wp-content/uploads/2016/09/treatment-access-consciousness-bars-healing-300x225.jpg");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
 }
 
 .accessbars_text {

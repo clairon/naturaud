@@ -15,28 +15,24 @@ color: #79776d; // gris-marron
 color: #3a3934; // gris foncé
 */
 
-.header {
+
+.mynav {
   	font-family: 'Lato', sans-serif;
-  	height: 50px;
   	background-color: #79776d;
-  	/*z-index: 1000;*/
 }
 
-.logo {
-	color: black;
+.mynavbar a {
+ 	color: #f5f5dc;
 }
 
-.navigation_bar {
-	color: #f5f5dc;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+.mynavbar a:hover {
+	color: #79776d;
 }
 
-.navigation_bar a {
-	color: #f5f5dc;
-	font-size: 1.4rem;
+.myheader .icon-bar {
+    border:1px solid #f5f5dc;
 }
+
 
 /*todo: image transparente, polices et espacements h1 ruluko h2 lato color: #3a3934;*/
 .presentation {

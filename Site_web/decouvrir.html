@@ -4,6 +4,8 @@
 <head>
 	<title>Audrey Naturo | Découvrir</title>
 	<link rel="stylesheet" type="text/css" href="decouvrir.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css?family=Hind+Vadodara|Lato|Ruluko" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
@@ -14,30 +16,30 @@
 
 <body>
 
-	<nav class="navbar navbar-fixed-top header">
+	<nav class="navbar navbar-fixed-top mynav" role="navigation">
 		<div class="container">
-			<div class="row">
-				<a class="col-sm-2 navbar-brand logo" href="home.html">	
-					Futur logo
-				</a>
-				<div class="col-sm-8 col-sm-offset-2 navigation_bar">
-					<ul class="nav navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link" href="qui_suis_je.html">Qui suis-je ?</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="consulter.html">Consulter</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="decouvrir.html">Découvrir</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="contact.html">Contact</a>
-						</li>
-					</ul>
-					<!-- ajouter les formes actives des liens -->
-				</div>
+		<div class="row">
+			<a class="navbar-brand col-sm-6" href="home.html">Futur Logo</a>
+			<div class="navbar-header myheader">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
 			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse mynavbar col-sm-8 col-offset-2" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="nav-item"><a href="qui_suis_je.html">Qui suis-je ?</a></li>
+					<li class="nav-item"><a href="consulter.html">Consulter</a></li>
+					<li class="nav-item"><a href="decouvrir.html">Découvrir</a></li>
+					<li class="nav-item"><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
 		</div>
 	</nav>
 
@@ -48,8 +50,9 @@
 				<h1>Découvrir les médecines douces</h1>
 			</div>
 			
-			<div class="row row-eq-height">
-				<div class="col-sm-6 naturopathie">
+			<div class="row vertical-align">
+				<div class="col-sm-6">
+					<img src="naturopathie.jpg" class="img-responsive" alt="Naturopathie">
 				</div>
 				<div class="col-sm-6 naturopathie_text">
 					<h2>Naturopathie</h2>
@@ -57,17 +60,19 @@
 				</div>
 			</div>
 
-			<div class="row row-eq-height">
+			<div class="row vertical-align">
 				<div class="col-sm-6 reflexologie_text">
 					<h2>Réflexologie plantaire</h2>
 					<p>La réflexologie est un soin non conventionnel, de type massage. Elle repose sur le postulat que chaque organe, partie du corps ou fonction physiologique correspondrait à une zone ou un point sur les mains, les pieds ou les oreilles. Un toucher spécifique sur ces zones permettrait ainsi de localiser et dissiper les tensions afin de rétablir l'équilibre du corps. Cette technique manuelle se place dans une approche dite « énergétique » et holistique du corps et s'apparente en cela au shiatsu, à l'acupuncture ou à l'ostéopathie.</p>
 				</div>
-				<div class="col-sm-6 reflexologie">
+				<div class="col-sm-6">
+					<img src="reflexologie.jpg" class="img-responsive" alt="Réflexologie">
 				</div>
 			</div>
 			
-			<div class="row row-eq-height">
-				<div class="col-sm-6 accessbars">
+			<div class="row vertical-align">
+				<div class="col-sm-6">
+					<img src="accessbars.jpg" class="img-responsive" alt="Access Bars">
 				</div>
 				<div class="col-sm-6 accessbars_text">
 					<h2>Access Bars</h2>
