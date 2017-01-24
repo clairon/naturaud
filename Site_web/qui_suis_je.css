@@ -46,11 +46,13 @@ color: #3a3934; // gris foncé
 	margin-bottom: 50px;
 	}
 
-.row-eq-height{
+@media (min-width: 768px) {
+.row-eq-height-xsmin {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+}
 }
 
 .audrey {
@@ -62,8 +64,20 @@ color: #3a3934; // gris foncé
 	text-align: center;
 	}
 
+
+@media (min-width: 768px) {
 .audrey img {
 	width: 80%;
+}
+}
+
+@media (max-width: 767px) {
+.audrey img {
+	width: 50%;
+}
+}
+
+.audrey img {
 	border-radius: 50%;
 	margin-top: 20px;
 	margin-bottom: 20px;

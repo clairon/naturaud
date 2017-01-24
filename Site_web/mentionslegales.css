@@ -34,12 +34,14 @@ color: #3a3934; // gris foncé
 }
 
 
+
 .background {
 	background-color: #f5f5dc;
-	position: relative; 
+	position: relative;
 	top: 50px;
 	margin-bottom: 50px;
-}
+	text-align: right;
+	}
 
 .background h1 {
 	font-size: 2em;
@@ -50,61 +52,11 @@ color: #3a3934; // gris foncé
 	padding-top: 20px;
 }
 
-.background h2 {
-	font-size: 1.7em;
-	font-family: 'Lato', sans-serif;
-	color: #79776d;
-	padding-bottom: 20px;
-	padding-left: 30px;
-	padding-right: 30px;
-}
-
 .background p {
 	font-family: 'Hind Vadodara', sans-serif;
 	color: #3a3934;
-	padding-bottom: 20px;
-	padding-left: 30px;
-	padding-right: 30px;
-}
-
-@media (min-width: 768px) {
-    .row.vertical-align {
-        display: flex;
-        align-items: center;
-    }
-}
-
-@media (max-width: 768px) {
-    .naturopathie_text p .reflexologie_text p .accessbars_text p {
-        text-align: center;
-    }
-}
-
-@media (min-width: 768px) {
-    .naturopathie_text p .accessbars_text p {
-        text-align: left;
-    }
-}
-
-@media (min-width: 768px) {
-    .reflexologie_text p {
-        text-align: right;
-    }
-}
-
-.naturopathie_text {
-	margin-bottom: 30px;
-	margin-top: 30px;
-}
-
-.reflexologie_text {
-	margin-bottom: 30px;
-	margin-top: 30px;
-}
-
-.accessbars_text {;
-	margin-bottom: 30px;
-	margin-top: 30px;
+	padding-bottom: 40px;
+	text-align: left;
 }
 
 
