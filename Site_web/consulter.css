@@ -15,57 +15,76 @@ color: #79776d; // gris-marron
 color: #3a3934; // gris foncé
 */
 
-
 .mynav {
   	font-family: 'Lato', sans-serif;
-  	background-color: #79776d;
+  	background-color: #f5f5dc;
+    height: 70px;
+}
+
+.mynavbar {
+  margin-top: 10px;
 }
 
 .mynavbar a {
- 	color: #f5f5dc;
+ 	color: #2F241C;
+  background-color: #f5f5dc;
 }
 
-.mynavbar a:hover {
-	color: #79776d;
+nav .mynavbar li a:hover {
+	color: #f5f5dc; 
+  background-color: #2F241C;
 }
 
 .myheader .icon-bar {
-    border:1px solid #f5f5dc;
+    border:1px solid #2F241C;
 }
+
+.mynav img {
+  height: 50px;
+}
+
+a.mynavbar-brand {
+  padding-top: 10px;
+}
+
+
 
 
 .main {
 	position: relative;
-	top: 50px;
-	margin-bottom: 50px;
+	top: 70px;
+  background-color: #f5f5dc;
 }
 
 .main h1 {
 	font-size: 2em;
 	font-family: 'Lato', sans-serif;
-	color: #79776d;
+	color: #f5f5dc;
+  background-color: #2F241C;
 	text-align: center;
 	padding-bottom: 30px;
-	padding-top: 20px;
+	padding-top: 30px;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .main p {
 	font-family: 'Hind Vadodara', sans-serif;
-	color: #3a3934;
+	color: #2F241C;
 	text-align: center;
 }
 
 .main h4 {
 	font-size: 1.2em;
 	font-family: 'Lato', sans-serif;
-	color: #79776d;
+	color: #2F241C;
 	text-align: center;
 	padding-bottom: 10px;
 }
 
 .main h6 {
 	font-family: 'Hind Vadodara', sans-serif;
-	color: #79776d;
+	color: #2F241C;
 	text-align: center;
 	font-size: 1.1em;
 }
@@ -73,7 +92,7 @@ color: #3a3934; // gris foncé
 .my-dark-btn-default {
 	font-family: 'Lato', sans-serif;
 	border-style: none;
-	background-color: #79776d;
+	background-color: #2F241C;
 	color: #f5f5dc;
 	padding: 2px 30px;
 	margin-top: 10px;
@@ -83,7 +102,7 @@ color: #3a3934; // gris foncé
 	font-family: 'Lato', sans-serif;
 	border-style: none;
 	background-color: #f5f5dc;
-	color: #3a3934;
+	color: #2F241C;
 	padding: 2px 30px;
 	margin-top: 10px;
 }
@@ -91,45 +110,53 @@ color: #3a3934; // gris foncé
 .my-btn-primary {
 	font-family: 'Lato', sans-serif;
 	border-style: none;
-	background-color: #ac92a9;
+	background-color: #C892C2;
 	color: white;
 	padding: 2px 30px;
 	margin-top: 10px;
 }
 
+
+a.my-dark-btn-default:hover {
+	color: #C892C2;
+}
+
+a.my-light-btn-default:hover {
+	color: #C892C2;
+}
+
+a.my-btn-primary:hover {
+	color: #2F241C;
+}
+
+
 .consultations_row {
 	margin-bottom: 30px;
 }
 
+
+
 .footer {
-  	font-family: 'Lato', sans-serif;
   	height: 70px;
   	background-color: #f5f5dc;
+    border-top: solid 1px #2F241C;
+    text-align: center;
+    padding-top: 25px;
+    position: relative;
+    top: 20px;
+    margin-top: 30px
 }
 
-.footer ul {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	font-size: 1.4rem;
-	margin: 0;
-	padding: 0;
-}
-
-.footer li {
-	display: inline-block;
-	padding: 25px 25px; 
+.footer span {
+    padding: 0px 10px;
 }
 
 .footer a {
-	color: #3a3934;
+	color: #2F241C;
+  font-size: 1.3rem;
+  font-family: 'Lato', sans-serif;
 }
 
 .footer a:hover {
-	color: #ac92a9;
-}
-
-.footer a:focus {
-	color: #3a3934;
-	font-weight: bold;
+	color: #C892C2;
 }

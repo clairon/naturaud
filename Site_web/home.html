@@ -7,6 +7,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css?family=Hind+Vadodara|Lato|Ruluko" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -17,7 +18,7 @@
 	<nav class="navbar navbar-fixed-top mynav" role="navigation">
 		<div class="container">
 		<div class="row">
-			<a class="navbar-brand col-sm-6" href="home.html">Futur Logo</a>
+			<a class="navbar-brand col-sm-6 mynavbar-brand" href="home.html"><img src="logo.png" alt="logo"/></a>
 			<div class="navbar-header myheader">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 					<span class="sr-only">Toggle navigation</span>
@@ -64,18 +65,19 @@
 					<p class="col-sm-6 col-sm-offset-3">De formation initiale en Droit Social spécialité Ressources Humaines, je me suis vite rendue compte que cela ne me convenait pas. Entourée de personnes exerçant dans les médecines alternatives, je me suis orientée vers la Naturopathie.</p>
 					<p class="col-sm-6 col-sm-offset-3">Diplômée de l'Institut Français des Sciences de l'Homme, je suis à votre écoute pour vous accompagner vers un retour à l'équilibre psychique et physique !</p>
 				</div>
-				<a href="qui_suis_je.html" class="btn my-dark-btn-default" role="button">Plus d'info sur mon parcours</a>
+				<a href="qui_suis_je.html" class="btn my-light-btn-default" role="button">Plus d'info sur mon parcours</a>
 			</div>
 		</div>
 
-		<div class="container consulter">
+		<div class="container-fluid consulter">
+      <div class="container">
 			<h3>Consulter</h3>
 			<div class="row">
 			<!-- J'ai un problème quand les textes ne sont pas de la même longueur alors les thumbnails non plus-->
 				
 				<div class="col-sm-4">
     				<div class="thumbnail">
-      					<img src="http://www.cogicor.com/wp-content/uploads/2016/02/photodune-8456307-attentive-psychologist-having-session-with-her-patient-in-her-private-consulting-room-s.jpg" alt="1ère consultation naturopathie">
+      					<img src="1ere_consultation.jpg" alt="1ère consultation naturopathie">
       					<div class="caption">
         					<h4>1ère consultation naturopathie</h4>
        						<p>La 1ère consultation consiste en un questionnaire approfondi - l'anamnèse - qui permet d'établir un bilan de vitalité et d'aborder les différents moyens naturels de retrouver une bonne hygiène de vie.</p>
@@ -90,7 +92,7 @@
 
 				<div class="col-sm-4">
     				<div class="thumbnail">
-      					<img src="http://static.wixstatic.com/media/6b197c3df956442f98893a0302d80de4.jpg/v1/fill/w_626,h_417/6b197c3df956442f98893a0302d80de4.jpg" alt="Consultation de suivi naturopathie">
+      					<img src="consultation_suivi.jpg" alt="Consultation de suivi naturopathie">
       					<div class="caption">
         					<h4>Consultation de suivi naturopathie</h4>
        						<p>Lors de ces consultations, nous faisons le point sur les bienfaits ressentis et sur les freins éventuels. Nous réadaptons votre programme pour poursuivre la démarche vers l’équilibre et la vitalité.</p>
@@ -120,6 +122,7 @@
 
 			</div>
 			<a href="consulter.html" class="btn my-dark-btn-default" role="button">Tous les types de consultations</a>
+    </div>
 		</div>
 
 		<div class="container-fluid decouvrir">
@@ -129,26 +132,20 @@
 				<div class="row">
 					<p class="col-sm-6 col-sm-offset-3">La relaxation est une des techniques de la naturopathie qui propose à toute personne de puiser en elle ses ressources nécessaires pour gérer son quotidien, faire face aux multiples évènements de la vie. Il s'agit d'un moment priviligié avec soi-même , qui permet de se ressourcer, maintenir et préverver une bonne hygiène de vie.</p>
 				</div>
-				<a href="decouvrir.html" class="btn my-dark-btn-default" role="button">En savoir plus</a>
+				<a href="decouvrir.html" class="btn my-light-btn-default" role="button">En savoir plus</a>
 			</div>
 		</div>
 
 		<div class="container-fluid contact">
 			<div class="container">
-			<div class="row">  
-  				<form class="contact_form col-sm-6 col-sm-offset-3" action="" method="post">
-    				<h3 id="contact_anchor">Contactez-moi !</h3>
+			  <div class="row">  
+  				<div class="col-sm-6 col-sm-offset-3 contact_box">
+    				<h3>Contactez-moi !</h3>
     				<h4><i class="fa fa-envelope" aria-hidden="true"></i> contact@audreynaturopathe.fr</h4>
-					<h4><i class="fa fa-mobile" aria-hidden="true"></i> 06 49 46 68 11</h4>
+					  <h4><i class="fa fa-mobile" aria-hidden="true"></i> 06 49 46 68 11</h4>
     				<h4>Merci pour votre intérêt, je réponds en général en moins de 48h.</h4>
-					<!--<fieldset><input placeholder="Votre nom" type="text" tabindex="1" required></fieldset>  
-					<fieldset><input placeholder="Votre adresse email" type="email" tabindex="2" required></fieldset>
-					<fieldset><input placeholder="Votre numéro de téléphone" type="tel" tabindex="3" required></fieldset>
-					<fieldset><textarea placeholder="Votre message" tabindex="5" required></textarea></fieldset>
-					<fieldset><a href="#" class="btn my-dark-btn-default" role="button">Envoyer</a>
-					<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>fieldset>-->
-  				</form>
-			</div>
+          </div>
+			  </div>
 			</div>
 		</div>
 
@@ -156,21 +153,14 @@
 
 	<div class="container-fluid footer">
 		<div class="container">
-			<div class="row">
-				<ul>
-					<li><a href="mentionslegales.html">Mentions légales</a></li>
-				</ul>
-			</div>
+				<p>
+          <span><a href="faq.html">FAQ</a></span>
+          <span><a href="mentionslegales.html"> Mentions légales</a></span>
+        </p>
 		</div>
 	</div>
 
-<!--
 
-		<div class="temoignages">
-			<p>Section Témoignages - En construction</p>		
-		</div>
-
--->
 </body>
 
 </html>

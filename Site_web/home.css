@@ -13,26 +13,42 @@ color: #f5f5dc; // beige
 color: #ac92a9; //violet
 color: #79776d; // gris-marron
 color: #3a3934; // gris foncé
+color: #2F241C; // nouveau marron
+color: #C892C2; // nouveau rose
 */
 
 
 .mynav {
   	font-family: 'Lato', sans-serif;
-  	background-color: #79776d;
+  	background-color: #f5f5dc;
+    height: 70px;
+}
+
+.mynavbar {
+  margin-top: 10px;
 }
 
 .mynavbar a {
- 	color: #f5f5dc;
+ 	color: #2F241C;
+  background-color: #f5f5dc;
 }
 
-.mynavbar a:hover {
-	color: #79776d;
+nav .mynavbar li a:hover {
+	color: #f5f5dc; 
+  background-color: #2F241C;
 }
 
 .myheader .icon-bar {
-    border:1px solid #f5f5dc;
+    border:1px solid #2F241C;
 }
 
+.mynav img {
+  height: 50px;
+}
+
+a.mynavbar-brand {
+  padding-top: 10px;
+}
 
 /*todo: image transparente, polices et espacements h1 ruluko h2 lato color: #3a3934;*/
 .presentation {
@@ -41,7 +57,7 @@ color: #3a3934; // gris foncé
 	background-position: center center;
 	background-size: cover;
 	position: relative;
-	top: 50px;
+	top: 70px;
 	text-align: center;
 	margin-bottom: 50px;
 	}
@@ -61,58 +77,148 @@ color: #3a3934; // gris foncé
 }
 
 .presentation h1 {
-	font-family: 'Ruluko', sans-serif;
-	font-size: 6em;
-	color: #3a3934;
+  font-family: 'Sofia', cursive;
+	font-size: 7em;
+	color: #2F241C;
 }
 
 .presentation h2 {
 	font-family: 'Lato', sans-serif;
 	font-size: 3em;
-	color: #3a3934;
+	color: #2F241C;
 }
 
-.all_sections p {
+
+
+.qui_suis_je {
+	background-color: #2F241C; /*#f5f5dc;*/
+	padding-top: 30px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.qui_suis_je p {
 	font-family: 'Hind Vadodara', sans-serif;
-	color: #3a3934;
 	text-align: center;
+  color: #f5f5dc;
 }
 
-.all_sections h3 {
+.qui_suis_je h3 {
 	font-size: 2em;
 	font-family: 'Lato', sans-serif;
-	color: #79776d;
+  color: #f5f5dc;
 	text-align: center;
 	padding-bottom: 20px;
 }
 
-#contact_anchor {
+
+
+.consulter {
+	padding-top: 30px;
+	padding-bottom: 40px;
+	text-align: center;
+  background-color: #f5f5dc;
+}
+
+.consulter p {
+	font-family: 'Hind Vadodara', sans-serif;
+	text-align: center;
+  color: #2F241C;
+}
+
+.consulter h3 {
 	font-size: 2em;
 	font-family: 'Lato', sans-serif;
-	color: #79776d;
+  color: #2F241C;
 	text-align: center;
 	padding-bottom: 20px;
 }
 
-.all_sections h4 {
+.consulter h4 {
 	font-size: 1.2em;
 	font-family: 'Lato', sans-serif;
-	color: #79776d;
+	color: #2F241C;
 	text-align: center;
 	padding-bottom: 10px;
 }
 
-.all_sections h6 {
+.consulter h6 {
 	font-family: 'Hind Vadodara', sans-serif;
-	color: #79776d;
+	color: #2F241C;
 	text-align: center;
 	font-size: 1.1em;
 }
 
+
+
+.decouvrir {
+	background-color: #2F241C;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.decouvrir p {
+	font-family: 'Hind Vadodara', sans-serif;
+	text-align: center;
+  color: #f5f5dc;
+}
+
+.decouvrir h3 {
+	font-size: 2em;
+	font-family: 'Lato', sans-serif;
+  color: #f5f5dc;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.decouvrir h4 {
+	font-size: 1.2em;
+	font-family: 'Lato', sans-serif;
+	color: #f5f5dc;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+
+.contact {
+	background-image: url("contact_medium.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	text-align: center;
+	height: 600px;
+	padding-top: 150px;
+}
+
+.contact_box{
+  background-color: #f5f5dc;
+  border-radius: 5px;
+  padding: 20px 20px;
+}
+
+.contact h3 {
+	font-size: 2em;
+	font-family: 'Lato', sans-serif;
+  color: #2F241C;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.contact h4 {
+	font-size: 1.2em;
+	font-family: 'Lato', sans-serif;
+	color: #2F241C;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+
+
 .my-dark-btn-default {
 	font-family: 'Lato', sans-serif;
 	border-style: none;
-	background-color: #79776d;
+	background-color: #2F241C;
 	color: #f5f5dc;
 	padding: 2px 30px;
 	margin-top: 10px;
@@ -130,84 +236,44 @@ color: #3a3934; // gris foncé
 .my-btn-primary {
 	font-family: 'Lato', sans-serif;
 	border-style: none;
-	background-color: #ac92a9;
+	background-color: #C892C2;
 	color: white;
 	padding: 2px 30px;
 	margin-top: 10px;
 }
 
-.qui_suis_je {
-	background-color: #f5f5dc;
-	padding-top: 30px;
-	padding-bottom: 40px;
-	text-align: center;
+
+a.my-dark-btn-default:hover {
+	color: #C892C2;
 }
 
-.consulter {
-	padding-top: 30px;
-	padding-bottom: 40px;
-	text-align: center;
+a.my-light-btn-default:hover {
+	color: #C892C2;
 }
 
-.decouvrir {
-	background-color: #f5f5dc;
-	padding-top: 30px;
-	padding-bottom: 40px;
-	text-align: center;
-}
-
-.contact {
-	background-image: url("contact_medium.jpg");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	text-align: center;
-	height: 600px;
-	padding-top: 150px;
-}
-
-.contact_form input[type="text"], .contact_form input[type="email"], .contact_form input[type="tel"], .contact_form textarea { 
-font-family:'Hind Vadodara', sans-serif;
-font-size: 1em;  
-}
-
-.contact_form {
-	background: #f5f5dc;
-	margin:50px 20px;
-	padding: 10px;
-	border-radius: 5px;
+a.my-btn-primary:hover {
+	color: #2F241C;
 }
 
 
 .footer {
-  	font-family: 'Lato', sans-serif;
   	height: 70px;
   	background-color: #f5f5dc;
+    border-top: solid 1px #2F241C;
+    text-align: center;
+    padding-top: 25px;
 }
 
-.footer ul {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	font-size: 1.4rem;
-	margin: 0;
-	padding: 0;
-}
-
-.footer li {
-	display: inline-block;
-	padding: 25px 25px; 
+.footer span {
+    padding: 0px 10px;
 }
 
 .footer a {
-	color: #3a3934;
+	color: #2F241C;
+  font-size: 1.3rem;
+  font-family: 'Lato', sans-serif;
 }
 
 .footer a:hover {
-	color: #ac92a9;
-}
-
-.footer a:focus {
-	color: #3a3934;
-	font-weight: bold;
+	color: #C892C2;
 }

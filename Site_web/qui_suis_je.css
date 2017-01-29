@@ -18,21 +18,35 @@ color: #3a3934; // gris foncé
 
 .mynav {
   	font-family: 'Lato', sans-serif;
-  	background-color: #79776d;
+  	background-color: #f5f5dc;
+    height: 70px;
+}
+
+.mynavbar {
+  margin-top: 10px;
 }
 
 .mynavbar a {
- 	color: #f5f5dc;
+ 	color: #2F241C;
+  background-color: #f5f5dc;
 }
 
-.mynavbar a:hover {
-	color: #79776d;
+nav .mynavbar li a:hover {
+	color: #f5f5dc; 
+  background-color: #2F241C;
 }
 
 .myheader .icon-bar {
-    border:1px solid #f5f5dc;
+    border:1px solid #2F241C;
 }
 
+.mynav img {
+  height: 50px;
+}
+
+a.mynavbar-brand {
+  padding-top: 10px;
+}
 
 /*todo: image transparente, polices et espacements h1 ruluko h2 lato color: #3a3934;*/
 
@@ -42,7 +56,7 @@ color: #3a3934; // gris foncé
 	background-position: center center;
 	background-size: cover;
 	position: relative;
-	top: 50px;
+	top: 70px;
 	margin-bottom: 50px;
 	}
 
@@ -56,7 +70,7 @@ color: #3a3934; // gris foncé
 }
 
 .audrey {
-	background-color: #ac92a9;
+	background-color: #C892C2;
 	padding-top: 20px;
 	padding-bottom: 50px;
 	margin-top: 50px; 
@@ -107,7 +121,7 @@ color: #3a3934; // gris foncé
 .presentation h3 {
 	font-family: 'Lato', sans-serif;
 	font-size: 1.5em;
-	color: #79776d;
+	color: #2F241C;
 	text-align: left;
 	padding-bottom: 10px;
 }
@@ -115,14 +129,14 @@ color: #3a3934; // gris foncé
 .presentation p {
 	font-family: 'Hind Vadodara', sans-serif;
 	font-size: 1em;
-	color: #79776d;
+	color: #2F241C;
 	text-align: left;
 }
 
 .presentation a {
 	font-family: 'Hind Vadodara', sans-serif;
 	font-size: 1em;
-	color: #79776d;
+	color: #2F241C;
 	text-align: left;
 	padding-left: 40px;
 }
@@ -134,14 +148,14 @@ color: #3a3934; // gris foncé
 .presentation li {
 	font-family: 'Hind Vadodara', sans-serif;
 	font-size: 1em;
-	color: #79776d;
+	color: #2F241C;
 	text-align: left;
 }
 
 
 .presentation hr {
 	width: 40%;
-	border-color: #79776d;
+	border-color: #2F241C;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
@@ -161,45 +175,28 @@ color: #3a3934; // gris foncé
 	padding-bottom: 10px;
 }
 
+
+
 .footer {
-  	font-family: 'Lato', sans-serif;
   	height: 70px;
   	background-color: #f5f5dc;
+    border-top: solid 1px #2F241C;
+    text-align: center;
+    padding-top: 25px;
+    position: relative;
+    top: 20px;
 }
 
-.footer ul {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	font-size: 1.4rem;
-	margin: 0;
-	padding: 0;
-}
-
-.footer li {
-	display: inline-block;
-	padding: 25px 25px; 
+.footer span {
+    padding: 0px 10px;
 }
 
 .footer a {
-	color: #3a3934;
+	color: #2F241C;
+  font-size: 1.3rem;
+  font-family: 'Lato', sans-serif;
 }
 
 .footer a:hover {
-	color: #ac92a9;
+	color: #C892C2;
 }
-
-.footer a:focus {
-	color: #3a3934;
-	font-weight: bold;
-}
-/*
-
-
-p {
-	font-family: 'Hind Vadodara', sans-serif;
-	color: #3a3934;
-	text-align: center;
-}
-
-*/
