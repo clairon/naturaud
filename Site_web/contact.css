@@ -2,7 +2,6 @@ body {
 	background-color: #FFF; 
 	box-sizing: border-box;
 	padding: 0;
-	margin: 0;
 }
 
 /*
@@ -38,7 +37,7 @@ color: #3a3934; // gris foncé
 	position: relative;
 	top: 50px;
 	margin-bottom: 50px;
-	background-image: url("https://www.seine-maritime-tourisme.com/phototheque/images/tout-en-images/campagne-pays%20de%20caux-2.jpg");
+	background-image: url("contact_medium.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -48,30 +47,65 @@ color: #3a3934; // gris foncé
 	background-color: #f5f5dc;
 	text-align: center;
 	position: relative;
-	margin-top: 50px; 
 	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-bottom: 50px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+@media (min-width: 400px) {
+	.main {
+		max-width: 80%;
+	}
+}
+
+@media (max-width: 399px) {
+	.main {
+		max-width: 95%;
+	}
+}
+
+@media (min-width: 768px) {
+	.main {
+		margin-top: 100px; 
+		margin-bottom: 100px;
+	}
+}
+
+@media (max-width: 767px) {
+	.main {
+		margin-top: 50px; 
+		margin-bottom: 50px;
+	}
 }
 
 .main h2 {
 	font-size: 2em;
 	font-family: 'Lato', sans-serif;
 	color: #79776d;
+	margin-bottom: 40px;
 }
 
 .main h3 {
 	font-size: 1.3em;
 	font-family: 'Lato', sans-serif;
 	color: #79776d;
+	padding-top: 30px;
 	padding-bottom: 10px;
 }
 
 .main p {
 	font-family: 'Hind Vadodara', sans-serif;
+	font-size: 1.1em;
 	color: #3a3934;
 }
 
+.main hr {
+	width: 40%;
+	border-color: #79776d;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
 
 .my-dark-btn-default {
 	font-family: 'Lato', sans-serif;
@@ -82,76 +116,14 @@ color: #3a3934; // gris foncé
 	margin-top: 10px;
 }
 
-.contact_form input[type="text"], .contact_form input[type="email"], .contact_form input[type="tel"], .contact_form textarea { 
-font-family:'Hind Vadodara', sans-serif;
-font-size: 1em;  
+.my-btn-primary {
+	font-family: 'Lato', sans-serif;
+	border-style: none;
+	background-color: #ac92a9;
+	color: white;
+	padding: 2px 30px;
+	margin-top: 10px;
 }
-
-.contact_form {
-	background: #f5f5dc;
-	padding: 10px;
-	border-radius: 5px;
-	text-align: center;
-}
-
-fieldset {
-	border: medium none !important;
-	margin: 0 0 20px;
-	min-width: 100%;
-	padding: 0;
-	width: 100%;
-}
-
-.contact_form input[type="text"], .contact_form input[type="email"], .contact_form input[type="tel"], .contact_form textarea {
-	width:100%;
-	border:1px solid #f5f5dc;
-	background:#FFF;
-	margin:0 0 5px;
-	padding:10px;
-}
-
-.contact_form input[type="text"]:hover, .contact_form input[type="email"]:hover, .contact_form input[type="tel"]:hover, .contact_form textarea:hover {
-	-webkit-transition:border-color 0.3s ease-in-out;
-	-moz-transition:border-color 0.3s ease-in-out;
-	transition:border-color 0.3s ease-in-out;
-	border:1px solid #79776d;
-}
-
-.contact_form textarea {
-	height:150px;
-	max-width:100%;
-  	resize:none;
-}
-
-.contact_form input:focus, #contact_form textarea:focus {
-	outline:0;
-	border:1px solid #999;
-}
-
-/*à creuser + faire que la text box puisse être agrandie par le user
-::-webkit-input-placeholder {
- color:#888;
-}
-:-moz-placeholder {
- color:#888;
-}
-::-moz-placeholder {
- color:#888;
-}
-:-ms-input-placeholder {
- color:#888;
-}
-
-* {
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-webkit-font-smoothing:antialiased;
-	-moz-font-smoothing:antialiased;
-	-o-font-smoothing:antialiased;
-	font-smoothing:antialiased;
-	text-rendering:optimizeLegibility;
-}
-*/
 
 .footer {
   	font-family: 'Lato', sans-serif;

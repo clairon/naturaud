@@ -36,21 +36,33 @@ color: #3a3934; // gris foncé
 
 /*todo: image transparente, polices et espacements h1 ruluko h2 lato color: #3a3934;*/
 .presentation {
-	background-image: url("https://static.pexels.com/photos/20974/pexels-photo.jpg");
+	background-image: url("home_main_medium.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	position: relative;
 	top: 50px;
-	height: 400px;
 	text-align: center;
 	margin-bottom: 50px;
 	}
 
+@media (min-width: 768px) {
+	.presentation {
+		height: 600px;
+		padding-top: 180px;
+	}
+}
+
+@media (max-width: 767px) {
+	.presentation {
+		height: 400px;
+		padding-top: 50px;
+	}
+}
+
 .presentation h1 {
 	font-family: 'Ruluko', sans-serif;
 	font-size: 6em;
-	padding-top: 80px;
 	color: #3a3934;
 }
 
@@ -67,6 +79,14 @@ color: #3a3934; // gris foncé
 }
 
 .all_sections h3 {
+	font-size: 2em;
+	font-family: 'Lato', sans-serif;
+	color: #79776d;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#contact_anchor {
 	font-size: 2em;
 	font-family: 'Lato', sans-serif;
 	color: #79776d;
@@ -137,11 +157,13 @@ color: #3a3934; // gris foncé
 }
 
 .contact {
-	background-image: url("https://www.seine-maritime-tourisme.com/phototheque/images/tout-en-images/campagne-pays%20de%20caux-2.jpg");
+	background-image: url("contact_medium.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	text-align: center;
+	height: 600px;
+	padding-top: 150px;
 }
 
 .contact_form input[type="text"], .contact_form input[type="email"], .contact_form input[type="tel"], .contact_form textarea { 
@@ -156,64 +178,6 @@ font-size: 1em;
 	border-radius: 5px;
 }
 
-fieldset {
-	border: medium none !important;
-	margin: 0 0 20px;
-	min-width: 100%;
-	padding: 0;
-	width: 100%;
-}
-
-.contact_form input[type="text"], .contact_form input[type="email"], .contact_form input[type="tel"], .contact_form textarea {
-	width:100%;
-	border:1px solid #f5f5dc;
-	background:#FFF;
-	margin:0 0 5px;
-	padding:10px;
-}
-
-.contact_form input[type="text"]:hover, .contact_form input[type="email"]:hover, .contact_form input[type="tel"]:hover, .contact_form textarea:hover {
-	-webkit-transition:border-color 0.3s ease-in-out;
-	-moz-transition:border-color 0.3s ease-in-out;
-	transition:border-color 0.3s ease-in-out;
-	border:1px solid #79776d;
-}
-
-.contact_form textarea {
-	height:150px;
-	max-width:100%;
-  	resize:none;
-}
-
-.contact_form input:focus, #contact_form textarea:focus {
-	outline:0;
-	border:1px solid #999;
-}
-
-/*à creuser + faire que la text box puisse être agrandie par le user
-::-webkit-input-placeholder {
- color:#888;
-}
-:-moz-placeholder {
- color:#888;
-}
-::-moz-placeholder {
- color:#888;
-}
-:-ms-input-placeholder {
- color:#888;
-}
-
-* {
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-webkit-font-smoothing:antialiased;
-	-moz-font-smoothing:antialiased;
-	-o-font-smoothing:antialiased;
-	font-smoothing:antialiased;
-	text-rendering:optimizeLegibility;
-}
-*/
 
 .footer {
   	font-family: 'Lato', sans-serif;

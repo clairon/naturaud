@@ -37,7 +37,7 @@ color: #3a3934; // gris foncé
 /*todo: image transparente, polices et espacements h1 ruluko h2 lato color: #3a3934;*/
 
 .main {
-	background-image: url(ecosse_voiture_comp.jpg);
+	background-image: url(qui_suis_je.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -100,7 +100,8 @@ color: #3a3934; // gris foncé
 	padding-top: 10px;
 	margin-top: 50px; 
 	margin-bottom: 50px;
-	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .presentation h3 {
@@ -135,6 +136,14 @@ color: #3a3934; // gris foncé
 	font-size: 1em;
 	color: #79776d;
 	text-align: left;
+}
+
+
+.presentation hr {
+	width: 40%;
+	border-color: #79776d;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .parcours {
