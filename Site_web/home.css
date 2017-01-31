@@ -213,6 +213,12 @@ a.mynavbar-brand {
 	padding-bottom: 10px;
 }
 
+.contact a {
+	color: #2F241C;
+  font-size: 1.3rem;
+  font-family: 'Lato', sans-serif;
+}
+
 
 
 .my-dark-btn-default {
