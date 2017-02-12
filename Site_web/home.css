@@ -100,13 +100,13 @@ a.mynavbar-brand {
 .qui_suis_je p {
 	font-family: 'Hind Vadodara', sans-serif;
 	text-align: center;
-  color: #f5f5dc;
+  	color: #f5f5dc;
 }
 
 .qui_suis_je h3 {
 	font-size: 2em;
 	font-family: 'Lato', sans-serif;
-  color: #f5f5dc;
+  	color: #f5f5dc;
 	text-align: center;
 	padding-bottom: 20px;
 }

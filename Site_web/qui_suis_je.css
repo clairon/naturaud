@@ -133,7 +133,14 @@ a.mynavbar-brand {
 	text-align: left;
 }
 
-.presentation a {
+.parcours a {
+	font-family: 'Hind Vadodara', sans-serif;
+	font-size: 1em;
+	color: #2F241C;
+	text-align: left;
+}
+
+.associations a {
 	font-family: 'Hind Vadodara', sans-serif;
 	font-size: 1em;
 	color: #2F241C;

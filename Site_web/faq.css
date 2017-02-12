@@ -100,15 +100,22 @@ a.mynavbar-brand {
 	font-size: 1.3em;
 	font-family: 'Lato', sans-serif;
 	color: #2F241C;
-	padding-bottom: 20px;
+	padding-top: 20px; 
+	padding-bottom: 10px;
 	text-align: left;
 }
 
 .faq p {
 	font-family: 'Hind Vadodara', sans-serif;
 	color: #2F241C;
-	padding-bottom: 40px;
+	padding-bottom: 10px;
 	text-align: left;
+}
+
+
+.faq hr {
+	width: 100%;
+	border-color: #2F241C;
 }
 
 .my-dark-btn-default {

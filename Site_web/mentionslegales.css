@@ -55,23 +55,34 @@ a.mynavbar-brand {
 	position: relative;
 	top: 70px;
 	margin-bottom: 50px;
-	text-align: right;
+	padding-bottom: 50px;
+	text-align: left;
 	}
 
 .background h1 {
 	font-size: 2em;
 	font-family: 'Lato', sans-serif;
-	color: #2F241C;
+	color: #f5f5dc;
 	text-align: center;
 	padding-bottom: 30px;
-	padding-top: 20px;
+	padding-top: 30px;
+  	margin-top:0;
+  	background-color: #2F241C;
+}
+
+.background h2 {
+	font-size: 1.5em;
+	font-family: 'Lato', sans-serif;
+	color: #2F241C;
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
 
 .background p {
 	font-family: 'Hind Vadodara', sans-serif;
 	color: #2F241C;
-	padding-bottom: 40px;
 	text-align: left;
+	font-size: 1.7rem;
 }
 
 
