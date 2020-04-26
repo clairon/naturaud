@@ -5,6 +5,10 @@ body {
 	margin: 0;
 }
 
+ul {
+	list-style-position: inside;
+}
+
 /*
 font-family: 'Ruluko', sans-serif;
 font-family: 'Hind Vadodara', sans-serif;
@@ -97,9 +101,9 @@ a.mynavbar-brand {
 	text-align: center;
 }
 
-.qui_suis_je p {
+.qui_suis_je p, ul  {
 	font-family: 'Hind Vadodara', sans-serif;
-	text-align: center;
+	text-align: left;
   	color: #f5f5dc;
 }
 
@@ -110,8 +114,6 @@ a.mynavbar-brand {
 	text-align: center;
 	padding-bottom: 20px;
 }
-
-
 
 .consulter {
 	padding-top: 30px;
