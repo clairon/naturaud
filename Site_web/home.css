@@ -52,7 +52,7 @@ a.mynavbar-brand {
 
 /*todo: image transparente, polices et espacements h1 ruluko h2 lato color: #3a3934;*/
 .presentation {
-	background-image: url("home_main_medium.jpg");
+	background-image: url("img/home_main_medium.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -182,7 +182,7 @@ a.mynavbar-brand {
 
 
 .contact {
-	background-image: url("contact_medium.jpg");
+	background-image: url("img/contact_medium.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;

@@ -51,7 +51,7 @@ a.mynavbar-brand {
 /*todo: image transparente, polices et espacements h1 ruluko h2 lato color: #3a3934;*/
 
 .main {
-	background-image: url(qui_suis_je.jpg);
+	background-image: url(img/qui_suis_je.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
