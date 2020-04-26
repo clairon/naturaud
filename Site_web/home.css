@@ -21,7 +21,6 @@ color: #2F241C; // nouveau marron
 color: #C892C2; // nouveau rose
 */
 
-
 .mynav {
   	font-family: 'Lato', sans-serif;
   	background-color: #f5f5dc;
@@ -120,6 +119,17 @@ a.mynavbar-brand {
 	padding-bottom: 40px;
 	text-align: center;
   background-color: #f5f5dc;
+}
+
+.consulter-list-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+	flex-wrap: wrap;
+}
+
+.consulter-list-item {
+	flex-basis: 35rem;
 }
 
 .consulter p {
@@ -221,8 +231,6 @@ a.mynavbar-brand {
   font-family: 'Lato', sans-serif;
 }
 
-
-
 .my-dark-btn-default {
 	font-family: 'Lato', sans-serif;
 	border-style: none;
@@ -262,7 +270,6 @@ a.my-light-btn-default:hover {
 a.my-btn-primary:hover {
 	color: #2F241C;
 }
-
 
 .footer {
   	height: 70px;
