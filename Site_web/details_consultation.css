@@ -15,7 +15,6 @@ color: #79776d; // gris-marron
 color: #3a3934; // gris foncé
 */
 
-
 .mynav {
   font-family: 'Lato', sans-serif;
   background-color: #f5f5dc;
@@ -37,7 +36,7 @@ nav .mynavbar li a:hover {
 }
 
 .myheader .icon-bar {
-  border:1px solid #2F241C;
+  border: 1px solid #2F241C;
 }
 
 .mynav img {
@@ -47,6 +46,7 @@ nav .mynavbar li a:hover {
 a.mynavbar-brand {
   padding-top: 10px;
 }
+
 /*
 .row-eq-height{
     display: -webkit-box;
@@ -84,7 +84,6 @@ a.my-light-btn-default:hover {
 a.my-btn-primary:hover {
   color: #2F241C;
 }
-
 
 .consultation_zoom {
   background-color: white;
@@ -146,7 +145,6 @@ a.my-btn-primary:hover {
   text-align: left;
 }
 
-
 .consultations {
   position: relative;
   top: 70px;
@@ -196,8 +194,6 @@ a.my-btn-primary:hover {
   color: #2F241C;
   text-align: center;
 }
-
-
 
 .footer {
   height: 70px;
