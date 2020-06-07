@@ -218,3 +218,20 @@ a.my-btn-primary:hover {
 .footer a:hover {
   color: #C892C2;
 }
+
+/*
+	COMMON: flex layout for consultation items
+*/
+.consulter-list-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.consulter-list-item {
+  flex-basis: 35rem;
+}
+/*
+	END: flex layout for consultation items
+*/

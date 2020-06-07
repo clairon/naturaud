@@ -114,6 +114,9 @@ a.mynavbar-brand {
 	padding-bottom: 20px;
 }
 
+/*
+	COMMON: flex layout for consultation items
+*/
 .consulter {
 	padding-top: 30px;
 	padding-bottom: 40px;
@@ -127,6 +130,9 @@ a.mynavbar-brand {
 	align-items: stretch;
 	flex-wrap: wrap;
 }
+/*
+	END flex layout for consultation items
+*/
 
 .consulter-list-item {
 	flex-basis: 35rem;
