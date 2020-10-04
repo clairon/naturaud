@@ -78,14 +78,12 @@ a.mynavbar-brand {
 	padding-top: 30px;
 }
 
-.background p {
+.background p, blockquote, ul {
 	font-family: 'Hind Vadodara', sans-serif;
 	color: #2F241C;
 	text-align: left;
 	font-size: 1.7rem;
 }
-
-
 
 .footer {
   	height: 70px;
